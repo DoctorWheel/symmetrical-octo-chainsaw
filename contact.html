@@ -22,16 +22,17 @@
         <h2>Contact</h2>
         <h3>Mail ons</h3>
         <form action="contact.php" method="post">
-            <label for="firstname">Naam:</label><br>
-            <input type="text" id="firstname" name="firstname" required><br>
+            <label for="firstname">Naam*:</label><br>
+            <input type="text" id="firstname" name="firstname" required placeholder="Emma"><br>
             <label for="lastname">Achternaam:</label><br>
-            <input type="text" id="lastname" name="lastname"><br>
-            <label for="email">Email:</label><br>
-            <input type="email" id="email" name="email" required><br>
-            <label for="message">Bericht:</label><br>
-            <input type="text" id="message" name="message"><br>
+            <input type="text" id="lastname" name="lastname" placeholder="de Jong"><br>
+            <label for="email">Email*:</label><br>
+            <input type="email" id="email" name="email" required placeholder="e.dejong@gmail.com"><br>
+            <label for="message">Bericht*:</label><br>
+            <input type="text" id="message" name="message" required placeholder="Uw bericht hier."><br>
             <input type="submit" value="Verstuur">
-          </form>
+        </form>
+        <p>* Verplicht veld.</p>
     </section>
     <footer>
         <p>Werkgroep 4 - Groep 10 © 2022</p>
