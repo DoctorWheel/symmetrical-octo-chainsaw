@@ -18,7 +18,7 @@ Met vriendelijke groet,
 Team 
 Uw bericht:
 $_GET[message]";
-$headers = "From: IUWGroep10@students.uu.nl".;
+$headers = "From: IUWGroep10@students.uu.nl";
 
 mail($to,$subject,$txt,$headers);
 ?>
