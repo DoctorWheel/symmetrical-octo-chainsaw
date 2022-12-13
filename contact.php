@@ -9,16 +9,16 @@ Team
 Uw bericht:
 <?php echo $_GET["message"]; ?>
 <?php
-$to = $_GET[email];
+$to = "$_GET[email]";
 $subject = "Bevestinging bericht ontvangen";
-$txt = "Beste" $_GET[firstname]",
+$txt = "Beste $_GET[firstname],
 Bedankt voor het invullen van het formulier.
-We zullen u binnenkort via" $_GET[email] "contacteren.
+We zullen u binnenkort via $_GET[email] contacteren.
 Met vriendelijke groet,
 Team 
-Uw bericht:"
-$_GET[message];
-$headers = "From: IUWGroep10@students.uu.nl" . "\r\n" .;
+Uw bericht:
+$_GET[message]";
+$headers = "From: IUWGroep10@students.uu.nl".;
 
 mail($to,$subject,$txt,$headers);
 ?>
