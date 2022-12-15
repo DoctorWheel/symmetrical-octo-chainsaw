@@ -22,6 +22,12 @@ $headers = "From: IUWGroep10@students.uu.nl";
 
 mail($to,$subject,$txt,$headers);
 ?>
+<?php
+$myfile = fopen($_POST["firstname"].$_POST["lastname"].".txt", "w") or die("Unable to open file!");
+$txt = "Neem contact op met $_POST[firstname].$_POST[lastname] op Email: $_POST[email]";
+fwrite($myfile, $txt);
+fclose($myfile);
+?>
 </pre>
 </body>
 </html>
