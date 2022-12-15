@@ -9,7 +9,7 @@ Team
 Uw bericht:
 <?php echo $_POST["message"]; ?>
 <?php
-$to = $_POST['email'];
+$to = "$_POST['email']";
 $subject = "Bevestinging bericht ontvangen";
 $txt = "Beste $_POST['firstname'],
 Bedankt voor het invullen van het formulier.
