@@ -9,15 +9,15 @@ Team
 Uw bericht:
 <?php echo $_POST["message"]; ?>
 <?php
-$to = "$_POST['email']";
+$to = $_POST['email'];
 $subject = "Bevestinging bericht ontvangen";
-$txt = "Beste $_POST['firstname'],
+$txt = "Beste" $_POST['firstname']",
 Bedankt voor het invullen van het formulier.
-We zullen u binnenkort via $_POST['email'] contacteren.
+We zullen u binnenkort via" $_POST['email'] "contacteren.
 Met vriendelijke groet,
 Team 
-Uw bericht:
-$_POST['message']";
+Uw bericht:"
+$_POST['message'];
 $headers = "From: IUWGroep10@students.uu.nl";
 
 mail($to,$subject,$txt,$headers);
