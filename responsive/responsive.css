@@ -1,0 +1,43 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/*V U L    D E     P I X E L S    Z E L F     I N ! ! ! !
+/* Let op: getal en "px" moeten aan elkaar, dus bv. 1000px (niet 1000 px)
+
+
+
+
+/* Smartphones (portrait). Vertel hier ook welke je gekozen hebt Apple iPhone 11, xr  */
+@media only screen 
+and (min-width : 200px) 
+and (max-width : 414px) 
+{
+/* Styles */
+
+
+
+}
+
+
+/* Tablet (portrait). Vertel hier ook welke je gekozen hebt Apple iPad */
+@media only screen
+and (min-width : 415px)  
+and (max-width :  810px) 
+{
+/* Styles */
+
+
+
+}
+
+/* Laptop/PC. Vertel hier ook welke je gekozen hebt ----------- */
+@media only screen
+and (min-width : 1200px)  
+and (max-width :  ) 
+{
+/* Styles */
+
+
+
+}
