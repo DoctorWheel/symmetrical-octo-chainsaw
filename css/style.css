@@ -47,6 +47,12 @@ a:hover {
     color: #07e;
 }
 
+img {
+    display: flex;
+    width: 40%;
+    padding: auto;
+}
+
 @media screen and (max-width: 1000px) {
     .container {
         display: block;
@@ -69,6 +75,14 @@ a:hover {
         display: flex;
         justify-content: center;
     }
+
+    img {
+        width: 100%;
+    }
+
+    .content-wrapper {
+        width: 80%;
+    }
 }
 
 @media screen and (max-width: 500px) {
@@ -80,4 +94,29 @@ a:hover {
         display: flex;
         justify-content: center;
     }
+
+    img {
+        width: 100%;
+    }
+
+    .content-wrapper {
+        width: 100%;
+    }
+}
+
+content {
+    display: flex;
+    justify-content: center;
+    line-height: 1.5em;
+    width: 100%;
+    max-width: 100%;
+}
+
+.content-wrapper {
+    width: 66.67%;
+    padding: 25px 0 25px 0;
+}
+
+footer {
+    text-align: center;
 }
