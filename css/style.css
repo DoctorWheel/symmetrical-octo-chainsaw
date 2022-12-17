@@ -6,33 +6,24 @@
     padding: 0;
 }
 
-html, body {
-    height: 100%;
-}
-
 header {
     display: flex;
     align-items: center;
-    overflow: hidden;
     background-color: #eee;
-    height: 10%;
 }
 
 header > * {
-    float: left;
     padding: 2%;
     padding-right: 0;
 }
 
 ul {
     list-style-type: none;
-    overflow: hidden;
-    width: 30%;
+    width: 45%;
 }
 
 li {
     float: left;
-    text-align: center;
     padding: 3%;
     border-radius: 0.5em;
     background-color: #eee;
