@@ -30,6 +30,7 @@
     </header>
     <content>
         <div class="content-wrapper">
+            <h2>Contact</h2>
             <pre>
             Beste <?php echo $_POST["firstname"]; ?>,
             Bedankt voor het invullen van het formulier.
