@@ -24,7 +24,7 @@ body {background-color: red;}
 /* Tablet (portrait). Vertel hier ook welke je gekozen hebt Apple iPad */
 @media only screen
 and (min-width : 415px)  
-and (max-width : 810px) 
+and (max-width : 811px) 
 {
 /* Styles */
 body {background-color: blue;}
@@ -35,7 +35,7 @@ body {background-color: blue;}
 
 /* Laptop/PC. Vertel hier ook welke je gekozen hebt ----------- */
 @media only screen
-and (min-width : 810px)  
+and (min-width : 812px)  
 and (max-width :  4000px) 
 {
 /* Styles */
