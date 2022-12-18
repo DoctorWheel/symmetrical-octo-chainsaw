@@ -35,7 +35,7 @@ body {background-color: blue;}
 
 /* Laptop/PC. Vertel hier ook welke je gekozen hebt ----------- */
 @media only screen
-and (min-width : 1200px)  
+and (min-width : 810px)  
 and (max-width :  4000px) 
 {
 /* Styles */
