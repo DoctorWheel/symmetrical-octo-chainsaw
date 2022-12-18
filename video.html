@@ -9,7 +9,12 @@
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
     <link href="css/fontawesome.css" rel="stylesheet">
     <link href="css/solid.css" rel="stylesheet">
-    
+    <script>
+        function videoTitle() {
+            let element = document.getElementById("videoTitle");
+            element.style.cssText = "visibility: visible; color: black; transition: color 0.5s";
+        }
+    </script>
 </head>
 <body>
     <header>
@@ -33,10 +38,13 @@
     <content>
         <div class="content-wrapper">
             <h2>Video</h2>
-            <h3>Rick Astley</h3>
-            <video width="320" height="240" autoplay muted controls>
-                <source src="videos/rickroll.mp4" type="video/mp4">
-            </video>    
+            <h3 id="videoTitle" style="visibility: hidden; color: white; transition: color 0.5s;">Rick Astley</h3>
+            <center>
+                <video autoplay controls onplay="videoTitle()">
+                    <source src="videos/rickroll.mp4" type="video/mp4">
+                    Your webbrowser does not support this type of media.
+                </video>    
+            </center>
             <h4>Never gonna give you up, never gonna let you down. </h4>
         </div>
     </content>

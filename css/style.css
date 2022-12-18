@@ -6,6 +6,23 @@
     padding: 0;
 }
 
+h1 {
+    font-size: 2em;
+}
+
+h2 {
+    font-size: 2em;
+    padding-bottom: 10px;
+}
+
+h3 {
+    font-weight: 600;
+}
+
+p {
+    line-height: 1.5em;
+}
+
 header {
     display: flex;
     justify-content: center;
@@ -119,4 +136,10 @@ content {
 
 footer {
     text-align: center;
+    color: grey;
+}
+
+.content-wrapper video {
+    padding: 0 auto;
+    max-width: 100%;
 }
