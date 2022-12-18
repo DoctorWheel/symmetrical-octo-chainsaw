@@ -32,12 +32,12 @@
         <div class="content-wrapper">
             <h2>Contact</h2>
             <p>
-            Beste <?php echo $_POST["firstname"]; ?>,
-            Bedankt voor het invullen van het formulier.
-            We zullen u binnenkort via <?php echo $_POST["email"]; ?> contacteren.
-            Met vriendelijke groet,
-            Team 
-            Uw bericht:
+            Beste <?php echo $_POST["firstname"]; ?>, <br>
+            Bedankt voor het invullen van het formulier. <br>
+            We zullen u binnenkort via <?php echo $_POST["email"]; ?> contacteren. <br>
+            Met vriendelijke groet, <br>
+            Team <br>
+            Uw bericht: <br>
             <?php echo $_POST["message"]; ?>
             <?php
             $to = $_POST['email'];
